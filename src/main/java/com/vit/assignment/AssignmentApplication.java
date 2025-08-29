@@ -23,7 +23,7 @@ public class AssignmentApplication implements CommandLineRunner {
         String registerUrl = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
         Map<String, String> body = new HashMap<>();
         body.put("name", "Akshat Kumar Jha");
-        body.put("regNo", "YOUR_REGNO");   // replace
+        body.put("regNo", "22BEC0420");
         body.put("email", "akshat.jha1404@gmail.com");
 
         ResponseEntity<Map> resp = rest.postForEntity(registerUrl, body, Map.class);
